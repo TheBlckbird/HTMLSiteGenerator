@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": ["swift"],
+            "args": [],
+            "cwd": "${workspaceFolder:HTMLSiteGenerator}",
+            "name": "Debug HTMLSiteGenerator",
+            "program": "${workspaceFolder:HTMLSiteGenerator}/.build/debug/HTMLSiteGenerator",
+            "preLaunchTask": "swift: Build Debug HTMLSiteGenerator"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": ["swift"],
+            "args": [],
+            "cwd": "${workspaceFolder:HTMLSiteGenerator}",
+            "name": "Release HTMLSiteGenerator",
+            "program": "${workspaceFolder:HTMLSiteGenerator}/.build/release/HTMLSiteGenerator",
+            "preLaunchTask": "swift: Build Release HTMLSiteGenerator"
+        }
+    ]
+}
